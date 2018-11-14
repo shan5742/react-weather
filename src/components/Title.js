@@ -1,9 +1,11 @@
 import React from "react";
 
 const Title = () => (
-  <div className="Title">
-    <h1>Weather Finder</h1>
-    <p>Find out temperature, conditions & more...</p>
+  <div>
+    <h1 className="title-sontainer__title">Weather Finder</h1>
+    <p className="title-sontainer__subtitle">
+      Find out temperature, conditions & more...
+    </p>
   </div>
 );
 
